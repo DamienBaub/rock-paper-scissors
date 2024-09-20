@@ -1,5 +1,5 @@
 # Rock-paper-scissors
-<p>Simple design for a rock-paper-scissors game.</p>
+<p>Simple design for a rock-paper-scissors game in JavaScript</p>
 
 <h2>Visual</h2>
 
