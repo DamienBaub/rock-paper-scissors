@@ -20,13 +20,13 @@ function generateComputerChoice () {
   // console.log(randomNumber);
 
   if (randomNumber === 1) {
-    computerChoice = 'rock';
+    computerChoice = 'Rock';
   };
   if (randomNumber === 2) {
-    computerChoice = 'paper';
+    computerChoice = 'Paper';
   };
   if (randomNumber === 3) {
-    computerChoice = 'scissors';
+    computerChoice = 'Scissors';
   };
 
   computerChoiceDisplay.innerHTML = computerChoice;
@@ -34,25 +34,25 @@ function generateComputerChoice () {
 
 function getResults () {
   if (computerChoice === userChoice) {
-    result = 'its a draw!';
+    result = 'Its a draw!';
   };
-  if (computerChoice === 'rock' && userChoice === 'paper') {
-    result = 'you win!';
+  if (computerChoice === 'Rock' && userChoice === 'Paper') {
+    result = 'You win!';
   };
-  if (computerChoice === 'rock' && userChoice === 'scissors') {
-    result = 'you lost!';
+  if (computerChoice === 'Rock' && userChoice === 'Scissors') {
+    result = 'You lost!';
   };
-  if (computerChoice === 'paper' && userChoice === 'scissors') {
-    result = 'you win!';
+  if (computerChoice === 'Paper' && userChoice === 'Scissors') {
+    result = 'You win!';
   };
-  if (computerChoice === 'paper' && userChoice === 'rock') {
-    result = 'you lose!';
+  if (computerChoice === 'Paper' && userChoice === 'Rock') {
+    result = 'You lose!';
   };
-  if (computerChoice === 'scissors' && userChoice === 'rock') {
-    result = 'you win!';
+  if (computerChoice === 'Scissors' && userChoice === 'Rock') {
+    result = 'You win!';
   };
-  if (computerChoice === 'scissors' && userChoice === 'paper') {
-    result = 'you lose!';
+  if (computerChoice === 'Scissors' && userChoice === 'Paper') {
+    result = 'You lose!';
   };
 
   resultDisplay.innerHTML = result;
