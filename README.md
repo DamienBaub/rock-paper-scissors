@@ -1,4 +1,4 @@
-# rock-paper-scissors
+# Rock-paper-scissors
 <p>Simple design for a rock-paper-scissors game.</p>
 
 <h2>Visual</h2>
